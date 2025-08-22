@@ -1,0 +1,506 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>
+    React Native Developer - Praveen
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+  <header class="bg-white shadow-md fixed w-full z-30">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a class="text-2xl font-bold text-indigo-600" href="#home">
+        Full Stack Developer
+      </a>
+      <nav>
+        <ul class="hidden md:flex space-x-8 font-semibold text-gray-700">
+          <li>
+            <a class="hover:text-indigo-600 transition" href="#about">
+              About
+            </a>
+          </li>
+          <li>
+            <a class="hover:text-indigo-600 transition" href="#skills">
+              Skills
+            </a>
+          </li>
+          <li>
+            <a class="hover:text-indigo-600 transition" href="#projects">
+              Projects
+            </a>
+          </li>
+          <li>
+            <a class="hover:text-indigo-600 transition" href="#recommendations">
+              Recommendations
+            </a>
+          </li>
+          <li>
+            <a class="hover:text-indigo-600 transition" href="#contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+        <button class="md:hidden focus:outline-none" id="menu-btn">
+          <i class="fas fa-bars text-2xl text-gray-700">
+          </i>
+        </button>
+      </nav>
+    </div>
+    <div class="hidden md:hidden bg-white shadow-md" id="mobile-menu">
+      <ul class="flex flex-col space-y-4 px-6 py-4 font-semibold text-gray-700">
+        <li>
+          <a class="block hover:text-indigo-600 transition" href="#about">
+            About
+          </a>
+        </li>
+        <li>
+          <a class="block hover:text-indigo-600 transition" href="#skills">
+            Skills
+          </a>
+        </li>
+        <li>
+          <a class="block hover:text-indigo-600 transition" href="#projects">
+            Projects
+          </a>
+        </li>
+          <li>
+            <a class="block hover:text-indigo-600 transition" href="#recommendations">
+              Recommendations
+            </a>
+          </li>
+        <li>
+          <a class="block hover:text-indigo-600 transition" href="#contact">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main class="pt-24 max-w-7xl mx-auto px-6">
+    <!-- Hero Section -->
+    <section class="flex flex-col-reverse md:flex-row items-center md:items-start gap-10 md:gap-20 py-16" id="home">
+      <div class="md:w-1/2 text-center md:text-left">
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-indigo-600 leading-tight">
+      Hi, I'm Praveen
+      <br>
+      <span class="text-gray-800">
+       Full Stack &amp; React Native Developer
+      </span>
+     </h1>
+        <p class="mt-4 text-lg text-gray-700 max-w-xl mx-auto md:mx-0">
+          A passionate React Native developer with expertise in ReactJS, NodeJS, Python, mobile &amp; desktop app
+          development, and AWS cloud management.
+        </p>
+        <a class="inline-block mt-8 px-8 py-3 bg-indigo-600 text-white font-semibold rounded-md shadow-md hover:bg-indigo-700 transition"
+          href="#contact">
+          Contact Me
+        </a>
+      </div>
+      <div class="md:w-1/2 flex justify-center md:justify-end">
+        <img
+          alt="Portrait of React Native developer Praveen Tamilselvan smiling, wearing casual tech attire, with a modern office background"
+          class="rounded-full w-64 h-64 object-cover shadow-lg" height="400" loading="lazy"
+          src="https://storage.googleapis.com/a1aa/image/5053d18c-b609-44bd-b6bf-3177c32b706c.jpg" width="400" />
+      </div>
+    </section>
+    <!-- About Section -->
+    <section class="py-16 border-t border-gray-200" id="about">
+      <h2 class="text-3xl font-bold text-indigo-600 mb-8 text-center">
+        About Me
+      </h2>
+      <div class="max-w-4xl mx-auto text-gray-700 text-lg leading-relaxed space-y-6">
+        <p>
+          I am a dedicated React Native developer with over 8 years of experience building performant and scalable
+          mobile and desktop applications. My passion lies in creating seamless user experiences and writing clean,
+          maintainable code.
+        </p>
+        <p>
+          Beyond mobile development, I have strong skills in ReactJS for web applications, backend development with
+          NodeJS, and Python scripting. I also specialize in AWS cloud management and cost optimization, helping
+          businesses reduce their cloud expenses while maintaining high availability.
+        </p>
+        <p>
+          I enjoy collaborating with cross-functional teams and continuously learning new technologies to stay ahead in
+          the fast-evolving tech landscape.
+        </p>
+      </div>
+    </section>
+    <!-- Skills Section -->
+    <section class="py-16 bg-white rounded-lg shadow-md max-w-5xl mx-auto" id="skills">
+      <h2 class="text-3xl font-bold text-indigo-600 mb-12 text-center">
+        My Expertise
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-6">
+        <div class="flex flex-col items-center text-center">
+          <img alt="ReactJS logo, blue atom symbol with three electron orbits" class="mb-4" height="80" loading="lazy"
+            src="https://storage.googleapis.com/a1aa/image/d975f69a-b028-470f-0760-7de53d6c96b8.jpg" width="80" />
+          <h3 class="text-xl font-semibold mb-2">
+            ReactJS
+          </h3>
+          <p class="text-gray-600">
+            Building dynamic and responsive web applications with ReactJS and modern frontend tools.
+          </p>
+        </div>
+        <div class="flex flex-col items-center text-center">
+          <img alt="NodeJS logo, green hexagon with white stylized 'Node' text" class="mb-4" height="80" loading="lazy"
+            src="https://storage.googleapis.com/a1aa/image/5f3877f1-970f-4008-363c-105abac670cf.jpg" width="80" />
+          <h3 class="text-xl font-semibold mb-2">
+            NodeJS
+          </h3>
+          <p class="text-gray-600">
+            Developing scalable backend APIs and services using NodeJS and Express.
+          </p>
+        </div>
+        <div class="flex flex-col items-center text-center">
+          <img alt="Python logo, two intertwined blue and yellow snakes forming a shape" class="mb-4" height="80"
+            loading="lazy" src="https://storage.googleapis.com/a1aa/image/d3e5b0f4-215f-4958-d286-af5d96a84e58.jpg"
+            width="80" />
+          <h3 class="text-xl font-semibold mb-2">
+            Python
+          </h3>
+          <p class="text-gray-600">
+            Scripting, automation, and backend development with Python and popular frameworks.
+          </p>
+        </div>
+        <div class="flex flex-col items-center text-center">
+          <img alt="React Native logo, blue atom symbol with mobile phone icon" class="mb-4" height="80" loading="lazy"
+            src="https://storage.googleapis.com/a1aa/image/dbb05aa8-9bbc-4fff-973a-37891d1e9d18.jpg" width="80" />
+          <h3 class="text-xl font-semibold mb-2">
+            Mobile App Development
+          </h3>
+          <p class="text-gray-600">
+            Creating performant cross-platform mobile apps using React Native.
+          </p>
+        </div>
+        <div class="flex flex-col items-center text-center">
+          <img alt="Desktop app development icon, a computer monitor with code brackets on screen" class="mb-4"
+            height="80" loading="lazy"
+            src="https://storage.googleapis.com/a1aa/image/891954c3-2974-4e05-87ab-92ee1d1abb9b.jpg" width="80" />
+          <h3 class="text-xl font-semibold mb-2">
+            Desktop App Development
+          </h3>
+          <p class="text-gray-600">
+            Building cross-platform desktop applications with modern frameworks.
+          </p>
+        </div>
+        <div class="flex flex-col items-center text-center">
+          <img alt="AWS logo, stylized orange smile-shaped arrow under black 'AWS' text" class="mb-4" height="80"
+            loading="lazy" src="https://storage.googleapis.com/a1aa/image/ea12cb8c-3627-49ca-262e-6721750c4325.jpg"
+            width="80" />
+          <h3 class="text-xl font-semibold mb-2">
+            AWS Cloud Management
+          </h3>
+          <p class="text-gray-600">
+            Managing cloud infrastructure and optimizing costs on AWS.
+          </p>
+        </div>
+        <div class="flex flex-col items-center text-center">
+          <img alt="Icon representing cost optimization, a dollar sign with a downward arrow" class="mb-4" height="80"
+            loading="lazy" src="https://storage.googleapis.com/a1aa/image/6d46c198-37c5-4254-0c81-f6deb1473e6a.jpg"
+            width="80" />
+          <h3 class="text-xl font-semibold mb-2">
+            AWS Cost Optimization
+          </h3>
+          <p class="text-gray-600">
+            Implementing strategies to reduce AWS expenses without compromising performance.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Projects Section -->
+    <section class="py-16 border-t border-gray-200 max-w-7xl mx-auto px-6" id="projects">
+      <h2 class="text-3xl font-bold text-indigo-600 mb-12 text-center">
+        Projects
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <article class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+          <img alt="Screenshot of a mobile e-commerce app with product listings and shopping cart"
+            class="w-full h-48 object-cover" height="400" loading="lazy"
+            src="./glidr-2.png" width="600" />
+          <div class="p-6 flex flex-col flex-grow">
+            <h3 class="text-xl font-semibold mb-2">
+              Glidr TV Mobile App
+            </h3>
+            <p class="text-gray-700 flex-grow">
+              A React Native OTT app with seamless user experience, real-time chat, and connect with friends.
+            </p>
+            <div class="mt-4 flex space-x-3 text-indigo-600">
+              <!-- <a aria-label="GitHub repository for Glidr TV Mobile App" class="hover:text-indigo-800 transition"
+                href="https://appadvice.com/app/glidr-tv/1587175748.amp" rel="noopener" target="_blank">
+                <i class="fab fa-github fa-lg">
+                </i>
+              </a> -->
+              <a aria-label="Live demo of Glidr TV Mobile App" class="hover:text-indigo-800 transition"
+                href="https://appadvice.com/app/glidr-tv/1587175748.amp" rel="noopener" target="_blank">
+                <i class="fas fa-external-link-alt fa-lg">
+                </i>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+          <img alt="Screenshot of a cloud cost optimization dashboard showing charts and cost savings"
+            class="w-full h-48 object-cover" height="400" loading="lazy"
+            src="https://storage.googleapis.com/a1aa/image/382dc96d-9282-4a7c-619e-b67296d11296.jpg" width="600" />
+          <div class="p-6 flex flex-col flex-grow">
+            <h3 class="text-xl font-semibold mb-2">
+              Voyager
+            </h3>
+            <p class="text-gray-700 flex-grow">
+              A web dashboard and portal built with ReactJS and NodeJS to manage the song request and generate the voice message using AI and backend for Neptune Player.
+            </p>
+          </div>
+        </article>
+        <article class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+          <img alt="Screenshot of a social networking mobile app with user profiles and chat interface"
+            class="w-full h-48 object-cover" height="400" loading="lazy"
+            src="./neptune-player-1.png" width="600" />
+          <div class="p-6 flex flex-col flex-grow">
+            <h3 class="text-xl font-semibold mb-2">
+              Neptune Player
+            </h3>
+            <p class="text-gray-700 flex-grow">
+              A React based mobile and desktop app featuring custom music player, Music Prescheduling.
+            </p>
+            <div class="mt-4 flex space-x-3 text-indigo-600">
+              <a aria-label="Live demo of Neptune Player" class="hover:text-indigo-800 transition"
+                href="https://appadvice.com/app/neptune-player/1534881898" rel="noopener" target="_blank">
+                <i class="fas fa-external-link-alt fa-lg">
+                </i>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+          <img alt="Screenshot of a task management app with task lists and calendar view"
+            class="w-full h-48 object-cover" height="400" loading="lazy"
+            src="./wofox-1.png" width="600" />
+          <div class="p-6 flex flex-col flex-grow">
+            <h3 class="text-xl font-semibold mb-2">
+              Wofox Pro
+            </h3>
+            <p class="text-gray-700 flex-grow">
+              A web app built with React JS and NodeJS backend to design and edit the image/video, and manage tasks.
+            </p>
+            <div class="mt-4 flex space-x-3 text-indigo-600">
+              <a aria-label="Live demo of TaskMaster Pro" class="hover:text-indigo-800 transition"
+                href="https://www.wofox.com/" rel="noopener" target="_blank">
+                <i class="fas fa-external-link-alt fa-lg">
+                </i>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+          <img alt="Screenshot of a fitness tracking mobile app showing workout stats and progress charts"
+            class="w-full h-48 object-cover" height="400" loading="lazy"
+            src="./aws-cost-optimization.png" width="600" />
+          <div class="p-6 flex flex-col flex-grow">
+            <h3 class="text-xl font-semibold mb-2">
+              AWS Cost Optimization
+            </h3>
+            <p class="text-gray-700 flex-grow">
+              Reduce the AWS billing by remove the unwanted resources, follow best practises and resize the AWS resources based on the metrics.
+            </p>
+          </div>
+        </article>
+        <article class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+          <img alt="Screenshot of an online learning platform with course listings and video player"
+            class="w-full h-48 object-cover" height="400" loading="lazy"
+            src="./drugcarts-2.png" width="600" />
+          <div class="p-6 flex flex-col flex-grow">
+            <h3 class="text-xl font-semibold mb-2">
+              Drugcarts
+            </h3>
+            <p class="text-gray-700 flex-grow">
+              A E-commerce web app. Fixed the security vulnerabilities and follow the best practices.
+            </p>
+            <div class="mt-4 flex space-x-3 text-indigo-600">
+              <a aria-label="Live demo of Drugcarts" class="hover:text-indigo-800 transition"
+                href="https://drugcarts.com/" rel="noopener" target="_blank">
+                <i class="fas fa-external-link-alt fa-lg">
+                </i>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- Recommendations Section -->
+    <section class="py-16 max-w-5xl mx-auto" id="recommendations">
+      <h2 class="text-3xl font-bold text-indigo-600 mb-12 text-center">
+        Recommendations
+      </h2>
+      <div class="space-y-12">
+        <article class="bg-white rounded-lg shadow p-8 flex flex-col md:flex-row gap-6">
+          <img
+            alt="Profile image of Christopher Lee, Product Director at Glidr Inc., a middle-aged man with short hair and glasses, smiling in a professional headshot"
+            class="w-24 h-24 rounded-full object-cover flex-shrink-0" loading="lazy"
+            src="https://media.licdn.com/dms/image/v2/C5603AQF3Wa22MD9EHg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1600982774790?e=1758758400&amp;v=beta&amp;t=Ps5Bi4jhHu87Bv9Pj-1_noTy_DNW8sqOYaEmPjarYno">
+          <div>
+            <h3 class="text-xl font-semibold text-gray-900">
+              Christopher Lee
+            </h3>
+            <p class="text-indigo-600 font-medium mb-1">
+              Product Director
+            </p>
+            <p class="text-gray-600 mb-4">
+              Glidr Inc.
+            </p>
+            <p class="text-gray-700 leading-relaxed">
+              Praveen is a terrific developer and dedicated team player. He managed the full-stack execution team with a
+              steady hand, producing quality code at a predictable cadence. Praveen attends to the detailed criteria of
+              product requirements, but also sees the Big Picture. This allowed him to anticipate future needs or
+              potential issues. He is a great partner and works hard, always with a smile. You will be lucky to have him
+              as a teammate!
+            </p>
+          </div>
+        </article>
+        <article class="bg-white rounded-lg shadow p-8 flex flex-col md:flex-row gap-6">
+          <img
+            alt="Profile image of Joel Zdepski, Co-Founder at Glidr Inc., a middle-aged man with short hair and beard, professional headshot with a dark background"
+            class="w-24 h-24 rounded-full object-cover flex-shrink-0" loading="lazy"
+            src="https://media.licdn.com/dms/image/v2/D5635AQEooyB0bdUEUw/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1673472865924?e=1756472400&amp;v=beta&amp;t=jtkdGzFf103pqUj7RmDDufCSzIPEF97bbzNVcWYaIxQ">
+          <div>
+            <h3 class="text-xl font-semibold text-gray-900">
+              Joel Zdepski
+            </h3>
+            <p class="text-indigo-600 font-medium mb-1">
+              Co-Founder
+            </p>
+            <p class="text-gray-600 mb-4">
+              Glidr Inc.
+            </p>
+            <p class="text-gray-700 leading-relaxed">
+              I have had the pleasure to work with Praveen as tech lead developing a mobile app for iOS an Android on a
+              MERN stack for our Glidr TV experience. Praveen brings that intangible quality that is so important to
+              project success, which is the ability to listen to requirements and business needs and the to refactor
+              those into the appropriate technology choices. When he pushes back on a requirement statement he does so
+              by clear statement of the issues, but then synthesizes alternatives for consideration. Being steered clear
+              of your own mistakes, while progressing to a solution the is fit for purpose is incredibly valuable to a
+              Product stakeholder. The implementation has always been excellent, and on time. When challenges occur he
+              knows the importance of transparency so the team can react and keep development on track. He partnered
+              will Product and Project leads while also mentoring the single contributors as well. Praveen will bring
+              significant value to your project if you have the good fortune to have him be part of your team.
+            </p>
+          </div>
+        </article>
+        <article class="bg-white rounded-lg shadow p-8 flex flex-col md:flex-row gap-6">
+          <img
+            alt="Profile image of Ted Sorrells, Director at CMC-Neptune, a middle-aged man with short hair and a friendly smile, professional headshot"
+            class="w-24 h-24 rounded-full object-cover flex-shrink-0" loading="lazy"
+            src="https://media.licdn.com/dms/image/v2/C4E03AQFFsFRHWZxCDQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1550588150158?e=1758758400&amp;v=beta&amp;t=aT5xLhLKRfi-Nb_u-8pC2CR7z4grSNRPxWAwFgU2Gp4">
+          <div>
+            <h3 class="text-xl font-semibold text-gray-900">
+              Ted Sorrells
+            </h3>
+            <p class="text-indigo-600 font-medium mb-1">
+              Director
+            </p>
+            <p class="text-gray-600 mb-4">
+              CMC-Neptune
+            </p>
+            <p class="text-gray-700 leading-relaxed">
+              I had the great privilege of watching Praveen take software concepts and turn them into top-notch
+              solutions. He is very attentive to detail and excels at trying different options in order to find the
+              perfect fit for the project. He is well-versed in frontend and backend technologies, always professional,
+              very personable, and really enjoys making his customers look good. A welcome addition to any team, large
+              or small, Praveen is the right developer and the right guy every time.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="py-16 bg-white rounded-lg shadow-md max-w-4xl mx-auto mt-20 px-6" id="contact">
+      <h2 class="text-3xl font-bold text-indigo-600 mb-8 text-center">
+        Get In Touch
+      </h2>
+      <form action="mailto:praveen.tamilselvan@example.com" class="max-w-xl mx-auto space-y-6" enctype="text/plain"
+        method="POST">
+        <div>
+          <label class="block text-gray-700 font-semibold mb-2" for="name">
+            Name
+          </label>
+          <input
+            class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            id="name" name="Name" placeholder="Your full name" required="" type="text" />
+        </div>
+        <div>
+          <label class="block text-gray-700 font-semibold mb-2" for="email">
+            Email
+          </label>
+          <input
+            class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            id="email" name="Email" placeholder="you@example.com" required="" type="email" />
+        </div>
+        <div>
+          <label class="block text-gray-700 font-semibold mb-2" for="message">
+            Message
+          </label>
+          <textarea
+            class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            id="message" name="Message" placeholder="Write your message here..." required="" rows="5"></textarea>
+        </div>
+        <div class="text-center">
+          <button
+            class="inline-block px-8 py-3 bg-indigo-600 text-white font-semibold rounded-md shadow-md hover:bg-indigo-700 transition"
+            type="submit">
+            Send Message
+          </button>
+        </div>
+      </form>
+      <div class="mt-12 text-center text-gray-600 space-x-6">
+        <a aria-label="Send email to Praveen Tamilselvan" class="hover:text-indigo-600 transition inline-block"
+          href="mailto:praveen.tamilselvan@example.com">
+          <i class="fas fa-envelope fa-lg">
+          </i>
+          pravindotin@gmail.com
+        </a>
+        <a aria-label="LinkedIn profile of Praveen Tamilselvan" class="hover:text-indigo-600 transition inline-block"
+          href="https://www.linkedin.com/in/praveentamil" rel="noopener" target="_blank">
+          <i class="fab fa-linkedin fa-lg">
+          </i>
+          LinkedIn
+        </a>
+        <a aria-label="GitHub profile of Praveen Tamilselvan" class="hover:text-indigo-600 transition inline-block"
+          href="https://github.com/pravintamil" rel="noopener" target="_blank">
+          <i class="fab fa-github fa-lg">
+          </i>
+          GitHub
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-white border-t border-gray-200 mt-20 py-6 text-center text-gray-600 text-sm">
+    © 2025 Praveen Tamilselvan. All rights reserved.
+  </footer>
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Close mobile menu on link click
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+  </script>
+</body>
+
+</html>
